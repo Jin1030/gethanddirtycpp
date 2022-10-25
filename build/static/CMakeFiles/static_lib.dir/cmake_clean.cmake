@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/static_lib.dir/src/abc.cpp.o"
+  "CMakeFiles/static_lib.dir/src/abc.cpp.o.d"
+  "CMakeFiles/static_lib.dir/src/static_apple.cpp.o"
+  "CMakeFiles/static_lib.dir/src/static_apple.cpp.o.d"
+  "libstatic_lib.a"
+  "libstatic_lib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/static_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

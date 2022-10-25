@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "static",
+					"jsonFile" : "directory-static-Debug-6fd93e04ae97ed3bad43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "static",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "readbook_reference",
+					"jsonFile" : "directory-readbook_reference-Debug-bf92dddbdef91406a75e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "readbook_reference",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "composition",
+					"jsonFile" : "directory-composition-Debug-71f45c62574a7b787895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "composition",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gethanddirtycpp"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "static_project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "readbook_reference_project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "composition_project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "composition_exe::@fe5d33dd91913ab4bf5c",
+					"jsonFile" : "target-composition_exe-Debug-d9373b9dc5cc48432cb8.json",
+					"name" : "composition_exe",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "composition_lib::@fe5d33dd91913ab4bf5c",
+					"jsonFile" : "target-composition_lib-Debug-2e0f0b809b53afc13378.json",
+					"name" : "composition_lib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "readbook_reference_exe::@003d2f74fbdd63058eda",
+					"jsonFile" : "target-readbook_reference_exe-Debug-53caa1253d7ff86a6f54.json",
+					"name" : "readbook_reference_exe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "static_exe::@9673205551b5378734bd",
+					"jsonFile" : "target-static_exe-Debug-296c385d6ab2f0daa39a.json",
+					"name" : "static_exe",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "static_lib::@9673205551b5378734bd",
+					"jsonFile" : "target-static_lib-Debug-8bde702a11248959e2b5.json",
+					"name" : "static_lib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build",
+		"source" : "/Users/jinsun/study/cpp_project/gethanddirtycpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

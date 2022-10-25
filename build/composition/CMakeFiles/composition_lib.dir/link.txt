@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcomposition_lib.a CMakeFiles/composition_lib.dir/source/birthday.cpp.o CMakeFiles/composition_lib.dir/source/people.cpp.o
+/usr/bin/ranlib libcomposition_lib.a
