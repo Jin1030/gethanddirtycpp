@@ -56,11 +56,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/composition_lib"
+					"path" : "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/composition_lib"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header"
+					"path" : "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/header"
 				}
 			],
 			"language" : "CXX",

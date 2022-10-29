@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 # Include any dependencies generated for this target.
 include static/CMakeFiles/static_lib.dir/depend.make
@@ -72,30 +72,30 @@ include static/CMakeFiles/static_lib.dir/flags.make
 static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o: static/CMakeFiles/static_lib.dir/flags.make
 static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o: ../static/src/static_apple.cpp
 static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o: static/CMakeFiles/static_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o -MF CMakeFiles/static_lib.dir/src/static_apple.cpp.o.d -o CMakeFiles/static_lib.dir/src/static_apple.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o -MF CMakeFiles/static_lib.dir/src/static_apple.cpp.o.d -o CMakeFiles/static_lib.dir/src/static_apple.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp
 
 static/CMakeFiles/static_lib.dir/src/static_apple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/static_lib.dir/src/static_apple.cpp.i"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp > CMakeFiles/static_lib.dir/src/static_apple.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp > CMakeFiles/static_lib.dir/src/static_apple.cpp.i
 
 static/CMakeFiles/static_lib.dir/src/static_apple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/static_lib.dir/src/static_apple.cpp.s"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp -o CMakeFiles/static_lib.dir/src/static_apple.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp -o CMakeFiles/static_lib.dir/src/static_apple.cpp.s
 
 static/CMakeFiles/static_lib.dir/src/abc.cpp.o: static/CMakeFiles/static_lib.dir/flags.make
 static/CMakeFiles/static_lib.dir/src/abc.cpp.o: ../static/src/abc.cpp
 static/CMakeFiles/static_lib.dir/src/abc.cpp.o: static/CMakeFiles/static_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object static/CMakeFiles/static_lib.dir/src/abc.cpp.o"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT static/CMakeFiles/static_lib.dir/src/abc.cpp.o -MF CMakeFiles/static_lib.dir/src/abc.cpp.o.d -o CMakeFiles/static_lib.dir/src/abc.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object static/CMakeFiles/static_lib.dir/src/abc.cpp.o"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT static/CMakeFiles/static_lib.dir/src/abc.cpp.o -MF CMakeFiles/static_lib.dir/src/abc.cpp.o.d -o CMakeFiles/static_lib.dir/src/abc.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp
 
 static/CMakeFiles/static_lib.dir/src/abc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/static_lib.dir/src/abc.cpp.i"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp > CMakeFiles/static_lib.dir/src/abc.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp > CMakeFiles/static_lib.dir/src/abc.cpp.i
 
 static/CMakeFiles/static_lib.dir/src/abc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/static_lib.dir/src/abc.cpp.s"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp -o CMakeFiles/static_lib.dir/src/abc.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp -o CMakeFiles/static_lib.dir/src/abc.cpp.s
 
 # Object files for target static_lib
 static_lib_OBJECTS = \
@@ -109,19 +109,19 @@ static/libstatic_lib.a: static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o
 static/libstatic_lib.a: static/CMakeFiles/static_lib.dir/src/abc.cpp.o
 static/libstatic_lib.a: static/CMakeFiles/static_lib.dir/build.make
 static/libstatic_lib.a: static/CMakeFiles/static_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libstatic_lib.a"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && $(CMAKE_COMMAND) -P CMakeFiles/static_lib.dir/cmake_clean_target.cmake
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libstatic_lib.a"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && $(CMAKE_COMMAND) -P CMakeFiles/static_lib.dir/cmake_clean_target.cmake
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 static/CMakeFiles/static_lib.dir/build: static/libstatic_lib.a
 .PHONY : static/CMakeFiles/static_lib.dir/build
 
 static/CMakeFiles/static_lib.dir/clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static && $(CMAKE_COMMAND) -P CMakeFiles/static_lib.dir/cmake_clean.cmake
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/static && $(CMAKE_COMMAND) -P CMakeFiles/static_lib.dir/cmake_clean.cmake
 .PHONY : static/CMakeFiles/static_lib.dir/clean
 
 static/CMakeFiles/static_lib.dir/depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/gethanddirtycpp /Users/jinsun/study/cpp_project/gethanddirtycpp/static /Users/jinsun/study/cpp_project/gethanddirtycpp/build /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static/CMakeFiles/static_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/github/gethanddirty /Users/jinsun/study/cpp_project/github/gethanddirty/static /Users/jinsun/study/cpp_project/github/gethanddirty/build /Users/jinsun/study/cpp_project/github/gethanddirty/build/static /Users/jinsun/study/cpp_project/github/gethanddirty/build/static/CMakeFiles/static_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : static/CMakeFiles/static_lib.dir/depend
 

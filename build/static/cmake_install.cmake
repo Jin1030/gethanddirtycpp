@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jinsun/study/cpp_project/gethanddirtycpp/static
+# Install script for directory: /Users/jinsun/study/cpp_project/github/gethanddirty/static
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp" "static/CMakeFiles/static_lib.dir/src/abc.cpp.o" "gcc" "static/CMakeFiles/static_lib.dir/src/abc.cpp.o.d"
-  "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp" "static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o" "gcc" "static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o.d"
+  "/Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp" "static/CMakeFiles/static_lib.dir/src/abc.cpp.o" "gcc" "static/CMakeFiles/static_lib.dir/src/abc.cpp.o.d"
+  "/Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp" "static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o" "gcc" "static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference
+# Install script for directory: /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

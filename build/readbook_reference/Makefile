@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference//CMakeFiles/progress.marks
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference//CMakeFiles/progress.marks
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/clean
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/rule:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/CMakeFiles/readbook_reference_exe.dir/rule
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readbook_reference/CMakeFiles/readbook_reference_exe.dir/rule
 .PHONY : readbook_reference/CMakeFiles/readbook_reference_exe.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ readbook_reference_exe: readbook_reference/CMakeFiles/readbook_reference_exe.dir
 
 # fast build rule for target.
 readbook_reference_exe/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/build
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/build
 .PHONY : readbook_reference_exe/fast
 
 main.o: main.cpp.o
@@ -135,7 +135,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

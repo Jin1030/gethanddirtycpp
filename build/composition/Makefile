@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition//CMakeFiles/progress.marks
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition//CMakeFiles/progress.marks
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/clean
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 composition/CMakeFiles/composition_lib.dir/rule:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/CMakeFiles/composition_lib.dir/rule
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/CMakeFiles/composition_lib.dir/rule
 .PHONY : composition/CMakeFiles/composition_lib.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ composition_lib: composition/CMakeFiles/composition_lib.dir/rule
 
 # fast build rule for target.
 composition_lib/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/build
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/build
 .PHONY : composition_lib/fast
 
 # Convenience name for target.
 composition/CMakeFiles/composition_exe.dir/rule:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/CMakeFiles/composition_exe.dir/rule
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 composition/CMakeFiles/composition_exe.dir/rule
 .PHONY : composition/CMakeFiles/composition_exe.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ composition_exe: composition/CMakeFiles/composition_exe.dir/rule
 
 # fast build rule for target.
 composition_exe/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/build
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/build
 .PHONY : composition_exe/fast
 
 source/birthday.o: source/birthday.cpp.o
@@ -149,7 +149,7 @@ source/birthday.o: source/birthday.cpp.o
 
 # target to build an object file
 source/birthday.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.o
 .PHONY : source/birthday.cpp.o
 
 source/birthday.i: source/birthday.cpp.i
@@ -157,7 +157,7 @@ source/birthday.i: source/birthday.cpp.i
 
 # target to preprocess a source file
 source/birthday.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.i
 .PHONY : source/birthday.cpp.i
 
 source/birthday.s: source/birthday.cpp.s
@@ -165,15 +165,39 @@ source/birthday.s: source/birthday.cpp.s
 
 # target to generate assembly for a file
 source/birthday.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.s
 .PHONY : source/birthday.cpp.s
+
+source/height.o: source/height.cpp.o
+.PHONY : source/height.o
+
+# target to build an object file
+source/height.cpp.o:
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/height.cpp.o
+.PHONY : source/height.cpp.o
+
+source/height.i: source/height.cpp.i
+.PHONY : source/height.i
+
+# target to preprocess a source file
+source/height.cpp.i:
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/height.cpp.i
+.PHONY : source/height.cpp.i
+
+source/height.s: source/height.cpp.s
+.PHONY : source/height.s
+
+# target to generate assembly for a file
+source/height.cpp.s:
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/height.cpp.s
+.PHONY : source/height.cpp.s
 
 source/main.o: source/main.cpp.o
 .PHONY : source/main.o
 
 # target to build an object file
 source/main.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.o
 .PHONY : source/main.cpp.o
 
 source/main.i: source/main.cpp.i
@@ -181,7 +205,7 @@ source/main.i: source/main.cpp.i
 
 # target to preprocess a source file
 source/main.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.i
 .PHONY : source/main.cpp.i
 
 source/main.s: source/main.cpp.s
@@ -189,7 +213,7 @@ source/main.s: source/main.cpp.s
 
 # target to generate assembly for a file
 source/main.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_exe.dir/build.make composition/CMakeFiles/composition_exe.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
 source/people.o: source/people.cpp.o
@@ -197,7 +221,7 @@ source/people.o: source/people.cpp.o
 
 # target to build an object file
 source/people.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.o
 .PHONY : source/people.cpp.o
 
 source/people.i: source/people.cpp.i
@@ -205,7 +229,7 @@ source/people.i: source/people.cpp.i
 
 # target to preprocess a source file
 source/people.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.i
 .PHONY : source/people.cpp.i
 
 source/people.s: source/people.cpp.s
@@ -213,7 +237,7 @@ source/people.s: source/people.cpp.s
 
 # target to generate assembly for a file
 source/people.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f composition/CMakeFiles/composition_lib.dir/build.make composition/CMakeFiles/composition_lib.dir/source/people.cpp.s
 .PHONY : source/people.cpp.s
 
 # Help Target
@@ -229,6 +253,9 @@ help:
 	@echo "... source/birthday.o"
 	@echo "... source/birthday.i"
 	@echo "... source/birthday.s"
+	@echo "... source/height.o"
+	@echo "... source/height.i"
+	@echo "... source/height.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
@@ -246,6 +273,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

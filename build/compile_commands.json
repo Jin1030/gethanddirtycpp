@@ -1,37 +1,42 @@
 [
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/static",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/static_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_lib.dir/src/static_apple.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/static_apple.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/static",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/static_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_lib.dir/src/static_apple.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/static/src/static_apple.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/static",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/static_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_lib.dir/src/abc.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/src/abc.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/static",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/static_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_lib.dir/src/abc.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/static/src/abc.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/static",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/static_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/static/main.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/main.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/static",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/static_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/static_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/static/main.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/static/main.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference",
-  "command": "/usr/bin/g++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/readbook_reference_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference/main.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference/main.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference",
+  "command": "/usr/bin/g++   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/readbook_reference_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference/main.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference/main.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/composition_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_lib.dir/source/birthday.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/birthday.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/birthday.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/composition",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/composition_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_lib.dir/source/birthday.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/birthday.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/birthday.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/composition_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_lib.dir/source/people.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/people.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/people.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/composition",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/composition_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_lib.dir/source/people.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/people.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/people.cpp"
 },
 {
-  "directory": "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition",
-  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/composition_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_exe.dir/source/main.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/main.cpp",
-  "file": "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/main.cpp"
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/composition",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/composition_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_lib.dir/source/height.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/height.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/height.cpp"
+},
+{
+  "directory": "/Users/jinsun/study/cpp_project/github/gethanddirty/build/composition",
+  "command": "/usr/bin/g++  -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/composition_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/composition/header -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/composition_exe.dir/source/main.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/main.cpp",
+  "file": "/Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/main.cpp"
 }
 ]

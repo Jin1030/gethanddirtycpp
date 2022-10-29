@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 # Include any dependencies generated for this target.
 include composition/CMakeFiles/composition_exe.dir/depend.make
@@ -72,16 +72,16 @@ include composition/CMakeFiles/composition_exe.dir/flags.make
 composition/CMakeFiles/composition_exe.dir/source/main.cpp.o: composition/CMakeFiles/composition_exe.dir/flags.make
 composition/CMakeFiles/composition_exe.dir/source/main.cpp.o: ../composition/source/main.cpp
 composition/CMakeFiles/composition_exe.dir/source/main.cpp.o: composition/CMakeFiles/composition_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object composition/CMakeFiles/composition_exe.dir/source/main.cpp.o"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT composition/CMakeFiles/composition_exe.dir/source/main.cpp.o -MF CMakeFiles/composition_exe.dir/source/main.cpp.o.d -o CMakeFiles/composition_exe.dir/source/main.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object composition/CMakeFiles/composition_exe.dir/source/main.cpp.o"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT composition/CMakeFiles/composition_exe.dir/source/main.cpp.o -MF CMakeFiles/composition_exe.dir/source/main.cpp.o.d -o CMakeFiles/composition_exe.dir/source/main.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/main.cpp
 
 composition/CMakeFiles/composition_exe.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/composition_exe.dir/source/main.cpp.i"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/main.cpp > CMakeFiles/composition_exe.dir/source/main.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/main.cpp > CMakeFiles/composition_exe.dir/source/main.cpp.i
 
 composition/CMakeFiles/composition_exe.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/composition_exe.dir/source/main.cpp.s"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/main.cpp -o CMakeFiles/composition_exe.dir/source/main.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/main.cpp -o CMakeFiles/composition_exe.dir/source/main.cpp.s
 
 # Object files for target composition_exe
 composition_exe_OBJECTS = \
@@ -94,18 +94,18 @@ composition/composition_exe: composition/CMakeFiles/composition_exe.dir/source/m
 composition/composition_exe: composition/CMakeFiles/composition_exe.dir/build.make
 composition/composition_exe: composition/libcomposition_lib.a
 composition/composition_exe: composition/CMakeFiles/composition_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable composition_exe"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/composition_exe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable composition_exe"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/composition_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 composition/CMakeFiles/composition_exe.dir/build: composition/composition_exe
 .PHONY : composition/CMakeFiles/composition_exe.dir/build
 
 composition/CMakeFiles/composition_exe.dir/clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition && $(CMAKE_COMMAND) -P CMakeFiles/composition_exe.dir/cmake_clean.cmake
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition && $(CMAKE_COMMAND) -P CMakeFiles/composition_exe.dir/cmake_clean.cmake
 .PHONY : composition/CMakeFiles/composition_exe.dir/clean
 
 composition/CMakeFiles/composition_exe.dir/depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/gethanddirtycpp /Users/jinsun/study/cpp_project/gethanddirtycpp/composition /Users/jinsun/study/cpp_project/gethanddirtycpp/build /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition /Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition/CMakeFiles/composition_exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/github/gethanddirty /Users/jinsun/study/cpp_project/github/gethanddirty/composition /Users/jinsun/study/cpp_project/github/gethanddirty/build /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition /Users/jinsun/study/cpp_project/github/gethanddirty/build/composition/CMakeFiles/composition_exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : composition/CMakeFiles/composition_exe.dir/depend
 

@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles /Users/jinsun/study/cpp_project/gethanddirtycpp/build/static//CMakeFiles/progress.marks
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles /Users/jinsun/study/cpp_project/github/gethanddirty/build/static//CMakeFiles/progress.marks
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/clean
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/preinstall
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 static/CMakeFiles/static_lib.dir/rule:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/CMakeFiles/static_lib.dir/rule
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/CMakeFiles/static_lib.dir/rule
 .PHONY : static/CMakeFiles/static_lib.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ static_lib: static/CMakeFiles/static_lib.dir/rule
 
 # fast build rule for target.
 static_lib/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/build
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/build
 .PHONY : static_lib/fast
 
 # Convenience name for target.
 static/CMakeFiles/static_exe.dir/rule:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/CMakeFiles/static_exe.dir/rule
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static/CMakeFiles/static_exe.dir/rule
 .PHONY : static/CMakeFiles/static_exe.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ static_exe: static/CMakeFiles/static_exe.dir/rule
 
 # fast build rule for target.
 static_exe/fast:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/build
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/build
 .PHONY : static_exe/fast
 
 main.o: main.cpp.o
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -165,7 +165,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_exe.dir/build.make static/CMakeFiles/static_exe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/abc.o: src/abc.cpp.o
@@ -173,7 +173,7 @@ src/abc.o: src/abc.cpp.o
 
 # target to build an object file
 src/abc.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.o
 .PHONY : src/abc.cpp.o
 
 src/abc.i: src/abc.cpp.i
@@ -181,7 +181,7 @@ src/abc.i: src/abc.cpp.i
 
 # target to preprocess a source file
 src/abc.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.i
 .PHONY : src/abc.cpp.i
 
 src/abc.s: src/abc.cpp.s
@@ -189,7 +189,7 @@ src/abc.s: src/abc.cpp.s
 
 # target to generate assembly for a file
 src/abc.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/abc.cpp.s
 .PHONY : src/abc.cpp.s
 
 src/static_apple.o: src/static_apple.cpp.o
@@ -197,7 +197,7 @@ src/static_apple.o: src/static_apple.cpp.o
 
 # target to build an object file
 src/static_apple.cpp.o:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.o
 .PHONY : src/static_apple.cpp.o
 
 src/static_apple.i: src/static_apple.cpp.i
@@ -205,7 +205,7 @@ src/static_apple.i: src/static_apple.cpp.i
 
 # target to preprocess a source file
 src/static_apple.cpp.i:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.i
 .PHONY : src/static_apple.cpp.i
 
 src/static_apple.s: src/static_apple.cpp.s
@@ -213,7 +213,7 @@ src/static_apple.s: src/static_apple.cpp.s
 
 # target to generate assembly for a file
 src/static_apple.cpp.s:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(MAKE) $(MAKESILENT) -f static/CMakeFiles/static_lib.dir/build.make static/CMakeFiles/static_lib.dir/src/static_apple.cpp.s
 .PHONY : src/static_apple.cpp.s
 
 # Help Target
@@ -246,6 +246,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

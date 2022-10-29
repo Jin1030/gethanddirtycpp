@@ -1,6 +1,6 @@
 composition/CMakeFiles/composition_lib.dir/source/birthday.cpp.o: \
-  /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/birthday.cpp \
-  /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header/birthday.h \
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/birthday.cpp \
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/header/birthday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \

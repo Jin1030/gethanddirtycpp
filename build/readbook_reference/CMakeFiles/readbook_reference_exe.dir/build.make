@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp
+CMAKE_SOURCE_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/gethanddirtycpp/build
+CMAKE_BINARY_DIR = /Users/jinsun/study/cpp_project/github/gethanddirty/build
 
 # Include any dependencies generated for this target.
 include readbook_reference/CMakeFiles/readbook_reference_exe.dir/depend.make
@@ -72,16 +72,16 @@ include readbook_reference/CMakeFiles/readbook_reference_exe.dir/flags.make
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o: readbook_reference/CMakeFiles/readbook_reference_exe.dir/flags.make
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o: ../readbook_reference/main.cpp
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o: readbook_reference/CMakeFiles/readbook_reference_exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o -MF CMakeFiles/readbook_reference_exe.dir/main.cpp.o.d -o CMakeFiles/readbook_reference_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o -MF CMakeFiles/readbook_reference_exe.dir/main.cpp.o.d -o CMakeFiles/readbook_reference_exe.dir/main.cpp.o -c /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference/main.cpp
 
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readbook_reference_exe.dir/main.cpp.i"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference/main.cpp > CMakeFiles/readbook_reference_exe.dir/main.cpp.i
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference/main.cpp > CMakeFiles/readbook_reference_exe.dir/main.cpp.i
 
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readbook_reference_exe.dir/main.cpp.s"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference/main.cpp -o CMakeFiles/readbook_reference_exe.dir/main.cpp.s
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference/main.cpp -o CMakeFiles/readbook_reference_exe.dir/main.cpp.s
 
 # Object files for target readbook_reference_exe
 readbook_reference_exe_OBJECTS = \
@@ -93,18 +93,18 @@ readbook_reference_exe_EXTERNAL_OBJECTS =
 readbook_reference/readbook_reference_exe: readbook_reference/CMakeFiles/readbook_reference_exe.dir/main.cpp.o
 readbook_reference/readbook_reference_exe: readbook_reference/CMakeFiles/readbook_reference_exe.dir/build.make
 readbook_reference/readbook_reference_exe: readbook_reference/CMakeFiles/readbook_reference_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/gethanddirtycpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable readbook_reference_exe"
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/readbook_reference_exe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jinsun/study/cpp_project/github/gethanddirty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable readbook_reference_exe"
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/readbook_reference_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/build: readbook_reference/readbook_reference_exe
 .PHONY : readbook_reference/CMakeFiles/readbook_reference_exe.dir/build
 
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/clean:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference && $(CMAKE_COMMAND) -P CMakeFiles/readbook_reference_exe.dir/cmake_clean.cmake
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference && $(CMAKE_COMMAND) -P CMakeFiles/readbook_reference_exe.dir/cmake_clean.cmake
 .PHONY : readbook_reference/CMakeFiles/readbook_reference_exe.dir/clean
 
 readbook_reference/CMakeFiles/readbook_reference_exe.dir/depend:
-	cd /Users/jinsun/study/cpp_project/gethanddirtycpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/gethanddirtycpp /Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference /Users/jinsun/study/cpp_project/gethanddirtycpp/build /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference /Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference/CMakeFiles/readbook_reference_exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jinsun/study/cpp_project/github/gethanddirty/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jinsun/study/cpp_project/github/gethanddirty /Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference /Users/jinsun/study/cpp_project/github/gethanddirty/build /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference /Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference/CMakeFiles/readbook_reference_exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : readbook_reference/CMakeFiles/readbook_reference_exe.dir/depend
 

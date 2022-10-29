@@ -1,12 +1,12 @@
 #include "birthday.h"
 
-//Birthday::Birthday()
-//{
-    //month = 0;
-    //day = 0;
-    //year = 0;
+Birthday::Birthday()
+{
+    month = 0;
+    day = 0;
+    year = 0;
 
-//}
+}
 
 void Birthday::printdate()
 {

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -107,7 +107,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "TRUE"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "NO"
+			"value" : "FALSE"
 		},
 		{
 			"name" : "CMAKE_SKIP_RPATH",
@@ -955,7 +955,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "NO"
+			"value" : "FALSE"
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS",
@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/composition"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/build/composition"
 		},
 		{
 			"name" : "composition_project_IS_TOP_LEVEL",
@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/composition"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/composition"
 		},
 		{
 			"name" : "gethanddirtycpp_BINARY_DIR",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/build"
 		},
 		{
 			"name" : "gethanddirtycpp_IS_TOP_LEVEL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty"
 		},
 		{
 			"name" : "readbook_reference_project_BINARY_DIR",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/readbook_reference"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/build/readbook_reference"
 		},
 		{
 			"name" : "readbook_reference_project_IS_TOP_LEVEL",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/readbook_reference"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/readbook_reference"
 		},
 		{
 			"name" : "static_project_BINARY_DIR",
@@ -1199,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/static"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/build/static"
 		},
 		{
 			"name" : "static_project_IS_TOP_LEVEL",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jinsun/study/cpp_project/gethanddirtycpp/static"
+			"value" : "/Users/jinsun/study/cpp_project/github/gethanddirty/static"
 		}
 	],
 	"kind" : "cache",

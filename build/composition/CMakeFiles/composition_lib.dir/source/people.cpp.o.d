@@ -1,6 +1,6 @@
 composition/CMakeFiles/composition_lib.dir/source/people.cpp.o: \
-  /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/source/people.cpp \
-  /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header/people.h \
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/source/people.cpp \
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/header/people.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -226,4 +226,5 @@ composition/CMakeFiles/composition_lib.dir/source/people.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/jinsun/study/cpp_project/gethanddirtycpp/composition/header/birthday.h
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/header/birthday.h \
+  /Users/jinsun/study/cpp_project/github/gethanddirty/composition/header/height.h

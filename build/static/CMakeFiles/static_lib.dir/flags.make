@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/static_lib -I/Users/jinsun/study/cpp_project/gethanddirtycpp/static/include
+CXX_INCLUDES = -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/static_lib -I/Users/jinsun/study/cpp_project/github/gethanddirty/static/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
 

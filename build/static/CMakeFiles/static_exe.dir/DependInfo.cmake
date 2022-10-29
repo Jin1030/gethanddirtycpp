@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jinsun/study/cpp_project/gethanddirtycpp/static/main.cpp" "static/CMakeFiles/static_exe.dir/main.cpp.o" "gcc" "static/CMakeFiles/static_exe.dir/main.cpp.o.d"
+  "/Users/jinsun/study/cpp_project/github/gethanddirty/static/main.cpp" "static/CMakeFiles/static_exe.dir/main.cpp.o" "gcc" "static/CMakeFiles/static_exe.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/jinsun/study/cpp_project/gethanddirtycpp/build/static/CMakeFiles/static_lib.dir/DependInfo.cmake"
+  "/Users/jinsun/study/cpp_project/github/gethanddirty/build/static/CMakeFiles/static_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
